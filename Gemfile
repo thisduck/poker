@@ -33,6 +33,7 @@ gem 'sqlite3'
 group :development, :test do
   gem "rspec-rails"
   gem "cucumber-rails"
-  gem "webrat"
+  #gem "webrat"
+  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
   gem "email_spec"
 end

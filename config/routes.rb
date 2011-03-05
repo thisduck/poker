@@ -1,6 +1,8 @@
 Poker::Application.routes.draw do
   resources :accounts
   get '/signup' => "accounts#new", :as => :signup
+  
+  get '/' => "accounts#index", :as => :home
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
