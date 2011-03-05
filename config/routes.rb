@@ -1,5 +1,6 @@
 Poker::Application.routes.draw do
-  match '/signup' => "session#new", :as => :signup
+  resources :accounts
+  get '/signup' => "accounts#new", :as => :signup
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

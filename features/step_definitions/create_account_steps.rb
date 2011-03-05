@@ -1,8 +1,8 @@
 Given /^that I am on the signup page$/ do
-  visit signup_path
+  visit new_account_path
 end
 
-When /^enter a username "([^"]*)"$/ do |username|
+When /^I enter a username "([^"]*)"$/ do |username|
   fill_in "Username", :with => username
 end
 
