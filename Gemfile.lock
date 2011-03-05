@@ -39,6 +39,8 @@ GEM
     cucumber-rails (0.3.2)
       cucumber (>= 0.8.0)
     diff-lcs (1.1.2)
+    email_spec (1.1.1)
+      rspec (~> 2.0)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     gherkin (2.3.3)
@@ -101,6 +103,7 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber-rails
+  email_spec
   rails (= 3.0.4)
   rspec-rails
   sqlite3

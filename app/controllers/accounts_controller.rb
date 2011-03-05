@@ -44,6 +44,7 @@ class AccountsController < ApplicationController
 
     respond_to do |format|
       if @account.save
+        AccountMailer.welcome_email(@account).deliver
         format.html { redirect_to(@account, :notice => 'Account was successfully created.') }
         format.xml  { render :xml => @account, :status => :created, :location => @account }
       else

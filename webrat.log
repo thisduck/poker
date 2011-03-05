@@ -10,3 +10,18 @@ REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
 REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
 REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
 REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /accounts with {"commit"=>"Create Account", "account"=>{"username"=>"ourtest", "full_name"=>"Our Test", "password"=>"badpass", "email"=>"poker@badkarma.mine.nu"}, "utf8"=>"\342\234\223"} and HTTP headers {"HTTP_REFERER"=>"/accounts/new"}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /accounts with {"commit"=>"Create Account", "account"=>{"username"=>"ourtest", "full_name"=>"Our Test", "password"=>"badpass", "email"=>"poker@badkarma.mine.nu"}, "utf8"=>"\342\234\223"} and HTTP headers {"HTTP_REFERER"=>"/accounts/new"}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /accounts with {"commit"=>"Create Account", "account"=>{"username"=>"ourtest", "full_name"=>"Our Test", "password"=>"badpass", "email"=>"poker@badkarma.mine.nu"}, "utf8"=>"\342\234\223"} and HTTP headers {"HTTP_REFERER"=>"/accounts/new"}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /accounts with {"commit"=>"Create Account", "account"=>{"username"=>"ourtest", "full_name"=>"Our Test", "password"=>"badpass", "email"=>"poker@badkarma.mine.nu"}, "utf8"=>"\342\234\223"} and HTTP headers {"HTTP_REFERER"=>"/accounts/new"}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /accounts with {"commit"=>"Create Account", "account"=>{"username"=>"ourtest", "full_name"=>"Our Test", "password"=>"badpass", "email"=>"poker@badkarma.mine.nu"}, "utf8"=>"\342\234\223"} and HTTP headers {"HTTP_REFERER"=>"/accounts/new"}
+REQUESTING PAGE: GET /accounts/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /accounts with {"commit"=>"Create Account", "account"=>{"username"=>"ourtest", "full_name"=>"Our Test", "password"=>"badpass", "email"=>"poker@badkarma.mine.nu"}, "utf8"=>"\342\234\223"} and HTTP headers {"HTTP_REFERER"=>"/accounts/new"}
