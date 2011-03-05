@@ -11,4 +11,4 @@ Scenario: Successful sign up
   And fill in "Email" with "poker@badkarma.mine.nu"
   And I create the account
   Then "poker@badkarma.mine.nu" should receive an email
-  And I get redirected to the homepage
+  And should be on the home page
