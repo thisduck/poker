@@ -29,3 +29,9 @@ gem 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "cucumber-rails"
+  gem "webrat"
+end
