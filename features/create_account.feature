@@ -5,10 +5,10 @@ Feature: Create account
 
 Scenario: Successful sign up
   Given that I am on the signup page
-  When I enter a username "ourtest"
-  And a full name "Our Test"
-  And a password "badpass"
-  And an email address "poker@badkarma.mine.nu"
+  When I enter a "Username" of "ourtest"
+  And a "Full name" of "Our Test"
+  And a "Password" of "badpass"
+  And an "Email" of "poker@badkarma.mine.nu"
   And I create the account
   Then I receive an email
   And I get redirected to the homepage

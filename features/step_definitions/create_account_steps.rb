@@ -2,20 +2,8 @@ Given /^that I am on the signup page$/ do
   visit new_account_path
 end
 
-When /^I enter a username "([^"]*)"$/ do |username|
-  fill_in "Username", :with => username
-end
-
-When /^a full name "([^"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
-end
-
-When /^a password "([^"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
-end
-
-When /^an email address "([^"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+When /a "([^"]*)" of "([^"]*)"$/ do |field,value|
+  fill_in field, :with => value
 end
 
 When /^I create the account$/ do
