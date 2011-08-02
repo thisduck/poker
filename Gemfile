@@ -32,8 +32,11 @@ gem 'sqlite3'
 
 group :development, :test do
   gem "rspec-rails"
+#  gem "cucumber-rails", '0.4.1'
   gem "cucumber-rails"
   #gem "webrat"
-  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  #gem 'capybara', :git => 'http://github.com/jnicklas/capybara.git', ref: '47dbcdfdf0ae5896586f0131250a64b2553115a0'
+  gem 'capybara', :git => 'http://github.com/jnicklas/capybara.git'
   gem "email_spec"
+  gem "database_cleaner"
 end
