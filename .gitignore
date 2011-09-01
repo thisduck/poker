@@ -4,3 +4,6 @@ log/*.log
 tmp/
 *.swp
 *.lock
+public/default_output.html
+public/wip_output.html
+
